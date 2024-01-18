@@ -13,20 +13,21 @@
     --White: hsla(0, 0%, 100%, 1);
     /* Typography */
     --Heading: 'Fraunces', serif;
-    --Heading-weight: 600;
     --Heading-L-size: 80px;
-    --Heading-L-line-height: 80px;
-
     --Heading-M-size: 50px;
-    --Heading-M-line-height: 50px;
-
-    --Heading-S-size: 32px;
-    --Heading-S-line-height: 40px;
+    --Heading-S-size: 28px;
 
     --Body: 'Manrope', sans-serif;
-    --Body-weight: 400;
-    --Body-size: 18px;
-    --Body-line-height: 32px;
+    --Body-size: 16px;
+
+    --Slim: 200;
+    --Regular: 400;
+    --Semi-Bold: 600;
+    --Bold: 700;
+
+    --L-line-height: 50px;
+    --M-line-height: 36px;
+    --S-line-height: 28px;
 }
 
 nav {
@@ -55,7 +56,6 @@ nav {
 section {
     margin-top: 50px;
     height: 100vh;
-    /* background-color: var(--Dark-Purple); */
     color: var(--White);
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@ section {
 
 .container {
     width: 90%;
-    height: 90%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,7 +78,7 @@ section {
 
 .title {
     font-family: var(--Heading);
-    font-weight: var(--Heading-weight);
+    font-weight: var(--Semi-Bold);
     font-size: var(--Heading-M-size);
     line-height: var(--Heading-M-line-height);
     text-align: center;
@@ -103,7 +103,55 @@ input[type="button"] {
     left: 36px; */
     z-index: 100;
 }
+
 .phone-img img {
     width: auto;
     height: 100%;
+}
+
+.block {
+    content: " ";
+    width: 100%;
+    height: 150px;
+}
+
+.circle {
+    border: 2px solid var(--Davys-Grey);
+    border-radius: 50%;
+    width: 48px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    font-family: var(--Heading);
+    font-size: var(--Heading-S-size);
+    font-weight: var(--Semi-Bold);
+    /* color: var(--Dark-Purple); */
+}
+
+.seconda {
+    position: absolute;
+    height: 1070.708px;
+    top: 450px;
+    z-index: -100;
+    /* background-color: red; */
+    width: 100%;
+    color: var(--Dark-Purple);
+    text-align: center;
+}
+
+.seconda h3 {
+    font-family: var(--Heading);
+    font-size: var(--Heading-S-size);
+    font-weight: var(--Semi-Bold);
+    line-height: var(--S-line-height);
+}
+
+.seconda p {
+    color: var(--Davys-Grey, #584D62);
+    font-family: var(--Body);
+    font-size: var(--Body-size);
+    font-weight: var(--Regular);
+    line-height: var(--S-line-height);
 }
