@@ -1,0 +1,7 @@
+
+:root {
+    --bg--viola: rgb(36, 5, 62);
+}
+.bg-body-color {
+    background-color: var(--bg--viola);
+}
