@@ -5,3 +5,17 @@
 .bg-body-color {
     background-color: var(--bg--viola);
 }
+
+.navbar {
+    height: 70px;
+}
+
+.navbar-brand img{
+    /* border: 5px solid white; */
+    height: 24.608px;
+    width: 95.762px;
+}
+
+.container-fluid {
+    color: white;
+}
