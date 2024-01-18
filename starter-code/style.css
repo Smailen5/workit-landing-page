@@ -1,21 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 :root {
-    --bg--viola: rgb(36, 5, 62);
-}
-.bg-body-color {
-    background-color: var(--bg--viola);
-}
-
-.navbar {
-    height: 70px;
-}
-
-.navbar-brand img{
-    /* border: 5px solid white; */
-    height: 24.608px;
-    width: 95.762px;
-}
-
-.container-fluid {
-    color: white;
+    /* Colori */
+    --Dark-Purple: hsla(273, 85%, 13%, 1);
+    --Eucaplyptus: hsla(150, 100%, 63%, 1);
+    --Davys-Grey: hsla(271, 12%, 34%, 1);
+    --Ghost-White: hsla(274, 100%, 99%, 1);
+    --White: hsla(0, 0%, 100%, 1);
+    /* Typography */
+    
 }
