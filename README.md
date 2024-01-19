@@ -1,5 +1,7 @@
 # Frontend Mentor - Workit landing page
 
+[![CodeFactor](https://www.codefactor.io/repository/github/smailen5/workit-landing-page/badge)](https://www.codefactor.io/repository/github/smailen5/workit-landing-page)
+
 ![Design preview for the Workit landing page coding challenge](./preview.jpg)
 
 ## Welcome! 👋
