@@ -17,6 +17,16 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.container__logo-light {
+    width: 97px;
+    height: 26px;
+}
+.logo-light {
+    background-image: url(/starter-code/assets/images/logo-light.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
 
 /* Personalizazione link */
 a {
@@ -65,7 +75,6 @@ a {
     line-height: 50px;
 }
 
-
 .container__cnt__button input[type="button"] {
     background-color: hsla(150, 100%, 63%, 1);
     color: hsla(273, 85%, 13%, 1);
@@ -106,10 +115,10 @@ a {
 }
 
 /* serve solo per fare spazio */
-/* .block {
+.block {
     width: 100%;
-    height: 50px;
-} */
+    height: 20px;
+}
 
 /* .block .block__section2 {
     width: 100%;
@@ -123,12 +132,11 @@ a {
 }
 
 .section2 .container__cnt {
-    /* width: 95%; */
     gap: 40px;
 }
 
 .container__cnt__circle {
-    border: 2px solid red;
+    border: 2px solid hsla(271, 12%, 34%, 1);
     width: 48px;
     height: 46px;
     border-radius: 50%;
@@ -161,7 +169,7 @@ a {
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .container__cnt__light__para .para {
@@ -172,31 +180,29 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 /* ---------- Inizio terza sezione ---------- */
 
-.block .block__section3 {
+/* .block .block__section3 {
     height: 80px;
-}
+} */
 
 .section3 .container__cnt {
     /* margin-top: 170px; */
     margin-top: 0;
 }
+
 .section3 .container__cnt__rectangle {
     width: 100%;
     background-color: hsla(273, 85%, 13%, 1);
-    color: white;
     padding: 30px 20px;
 }
 
-.section3 .container__cnt__light__title .title {
-    color: white;
-}
-
-.section3 .container__cnt__light__para .para {
+.section3 .container__cnt__light__title .title,
+.section3 .container__cnt__light__para .para,
+.section3 .container__cnt__rectangle {
     color: white;
 }
 
@@ -224,4 +230,52 @@ a {
 
 /* ---------- Inizio footer ---------- */
 
+.container__cnt__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 60px;
+    align-items: center
+}
 
+.container__cnt__footer__logo {
+    width: 97px;
+    height: 26px;
+}
+
+.logo-dark {
+    background-image: url(/starter-code/assets/images/logo-dark.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.container__cnt__footer__social {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.container__cnt__footer__social__facebook,
+.container__cnt__footer__social__twitter,
+.container__cnt__footer__social__instagram {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.container__cnt__footer__social__facebook {
+    background-image: url(/starter-code/assets/images/icon-facebook.svg);
+}
+
+.container__cnt__footer__social__twitter {
+    background-image: url(/starter-code/assets/images/icon-twitter.svg);
+    height: 17px;
+}
+
+.container__cnt__footer__social__instagram {
+    background-image: url(/starter-code/assets/images/icon-instagram.svg);
+}
