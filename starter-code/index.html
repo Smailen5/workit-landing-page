@@ -28,12 +28,13 @@
   <!-- Nav bar -->
   <nav>
     <div class="navbar">
-      <span class="logo-light"></span>
-      <span class="link">Apply for access<div class="rectangle"></div></span>
+      <div class="logo-light">Logo</div>
+      <div class="link"><a href="#">Apply for access</a></div>
     </div>
   </nav>
   <!-- Prima sezione -->
-  <section>
+  <section class="section1">
+    <!-- Background dark -->
     <div class="background">
       <svg xmlns="http://www.w3.org/2000/svg" width="375" height="482" viewBox="0 0 375 482" fill="none">
         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -41,92 +42,102 @@
           fill="#24053E" />
       </svg>
     </div>
-    <div class="container-flex container">
-      <p class="title">
-        Data <span class="">tailored</span> to your needs.
-      </p>
-      <input type="button" value="Learn more">
-      <div class="phone-img">
-        <img src="/starter-code/assets/images/image-hero.webp" alt="">
+    <!-- Contenitore prima sezione -->
+    <div class="container">
+      <div class="container__cnt">
+        <div class="container__cnt__title">
+          <div class="title">Data <a href="#">tailored</a> to your needs.</div>
+        </div>
+
+        <div class="container__cnt__button">
+          <input type="button" value="Learn more">
+        </div>
+
+        <div class="container__cnt__phone">
+          <div class="container__cnt__phone__img">
+            <img src="/starter-code/assets/images/image-hero.webp" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <!-- Seconda sezione -->
-  <section class="seconda">
-    <div class="background background-pink">
+  <section class="section2">
+    <!-- Background pink -->
+    <div class="background__pink">
       <svg xmlns="http://www.w3.org/2000/svg" width="375" height="1071" viewBox="0 0 375 1071" fill="none">
         <path fill-rule="evenodd" clip-rule="evenodd"
           d="M0 0H375.303V1053C375.303 1053 282.249 1070.71 188.173 1070.71C94.0966 1070.71 0 1053 0 1053L0 0Z"
           fill="#FCF8FF" />
       </svg>
     </div>
-
-    <div class="block"></div>
-    <div class="circle">1</div>
-
+    <!-- Contenitore seconda sezione -->
     <div class="container">
-      <article>
-        <h3>Actionable insights</h3>
+      <div class="block">
+        <div class="block__section2"></div>
+      </div>
 
-        <p>Optimize your products, improve customer satisfaction and stay ahead of the competition
-          with our product data analytics.
-        </p>
-      </article>
+      <div class="container__cnt">
 
-      <div class="circle">2</div>
-
-      <article>
-        <h3>Data-driven decisions</h3>
-
-        <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help
-          you unlock insights hidden in your product data.
-        </p>
-      </article>
-
-      <div class="circle">3</div>
-
-      <article>
-        <h3>Always affordable</h3>
-
-        <p>Always affordable pricing that scales with your business. Get top-quality product data
-          analytics services without hidden costs or unexpected fees.
-        </p>
-      </article>
-
-    </div>
-
-  </section>
-  <!-- Terza sezione -->
-  <section class="seconda terza">
-    <div class="container">
-      <div class="container-founder">
-        <div class="image-founder"></div>
-
-        <div class="founder">
-          <h3>Be the first to test</h3>
-
-          <p>
-            Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a
-            beta tester for our app and kickstart your company. Apply for access below and I’ll be
-            in touch to schedule a call.
-          </p>
-
-          <input type="button" value="Apply for access">
+        <!-- Acrionable insights -->
+        <div class="container__cnt__circle">
+          <div class="circle">1</div>
         </div>
+        <div class="container__cnt__light">
+          <div class="container__cnt__light__title">
+            <div class="title">
+              <h3>Actionable insights</h3>
+            </div>
+          </div>
+          <div class="container__cnt__light__para">
+            <div class="para">
+              <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our
+                product data analytics.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data-driven decisions -->
+        <div class="container__cnt__circle">
+          <div class="circle">2</div>
+        </div>
+        <div class="container__cnt__light">
+          <div class="container__cnt__light__title">
+            <div class="title">
+              <h3>Data-driven decisions</h3>
+            </div>
+          </div>
+          <div class="container__cnt__light__para">
+            <div class="para">
+              <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock
+                insights hidden in your product data.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Always affordable -->
+        <div class="container__cnt__circle">
+          <div class="circle">3</div>
+        </div>
+        <div class="container__cnt__light">
+          <div class="container__cnt__light__title">
+            <div class="title">
+              <h3>Always affordable</h3>
+            </div>
+          </div>
+          <div class="container__cnt__light__para">
+            <div class="para">
+              <p>Always affordable pricing that scales with your business. Get top-quality product data analytics
+                services without hidden costs or unexpected fees.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
       </div>
     </div>
-
-    <footer>
-      <div class="container-footer">
-        <div class="logo-dark"></div>
-        <div class="social">
-          <div class="faceboock icon"></div>
-          <div class="twitter icon"></div>
-          <div class="instagram icon"></div>
-        </div>
-      </div>
-    </footer>
-
   </section>
 
 
