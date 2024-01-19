@@ -30,20 +30,41 @@
     --S-line-height: 28px;
 }
 
+body,
+html {
+    /* width: 375px; */
+    height: 2406px;
+}
+
 nav {
     position: fixed;
     top: 0;
     width: 100%;
     color: var(--White);
+    z-index: 999;
+}
+
+.logo-light {
+    background-image: url(/starter-code/assets/images/logo-light.svg);
+    width: 95px;
+    height: 25px;
 }
 
 .navbar {
     background: var(--Dark-Purple);
     height: 50px;
-    padding: 0 10px;
+    padding: 10px 15px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+span .link {
+    color: var(--White, #FFF);
+    font-family: var(--Body);
+    font-size: var(--Body-size);
+    font-style: normal;
+    font-weight: var(--Bold);
 }
 
 .rectangle {
@@ -55,7 +76,7 @@ nav {
 
 section {
     margin-top: 50px;
-    height: 100vh;
+    height: 825px;
     color: var(--White);
     display: flex;
     flex-direction: column;
@@ -70,6 +91,9 @@ section {
 .container {
     width: 90%;
     height: 75%;
+}
+
+.container-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +112,7 @@ input[type="button"] {
     background-color: var(--Eucaplyptus);
     color: var(--Dark-Purple);
     border: none;
-    padding: 20px 25px;
+    padding: 15px 20px;
     font-family: var(--Body);
     font-size: 1.2rem;
     font-weight: 800;
@@ -99,8 +123,6 @@ input[type="button"] {
     width: 298.31px;
     height: 178.16px;
     position: relative;
-    /* top: 389px;
-    left: 36px; */
     z-index: 100;
 }
 
@@ -123,22 +145,30 @@ input[type="button"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px auto;
+    margin: 50px auto;
     font-family: var(--Heading);
     font-size: var(--Heading-S-size);
     font-weight: var(--Semi-Bold);
-    /* color: var(--Dark-Purple); */
 }
 
 .seconda {
-    position: absolute;
+    position: relative;
     height: 1070.708px;
-    top: 450px;
+    top: -410px;
     z-index: -100;
-    /* background-color: red; */
     width: 100%;
     color: var(--Dark-Purple);
     text-align: center;
+}
+
+.seconda .background {
+    z-index: -100;
+}
+
+.seconda article {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .seconda h3 {
@@ -149,9 +179,97 @@ input[type="button"] {
 }
 
 .seconda p {
-    color: var(--Davys-Grey, #584D62);
+    color: var(--Davys-Grey);
     font-family: var(--Body);
     font-size: var(--Body-size);
     font-weight: var(--Regular);
     line-height: var(--S-line-height);
+}
+
+.terza {
+    height: auto;
+}
+
+section .container-founder {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 640px;
+}
+
+section .container-founder .image-founder {
+    background-image: url(/starter-code/assets/images/image-founder.webp);
+    width: 265px;
+    height: 267px;
+    background-size: cover;
+    position: relative;
+    z-index: -10;
+    top: 50px;
+}
+
+.founder {
+    background: var(--Dark-Purple);
+    color: var(--White, #FFF);
+    width: 343px;
+    height: 375px;
+    padding: 20px;
+}
+
+.founder h3 {
+    margin-top: 20px;
+}
+
+.founder p {
+    margin: 20px 10px;
+    color: var(--White);
+}
+
+footer {
+    margin-top: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    width: 116px;
+    height: 102.224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .logo-dark {
+    background-image: url(/starter-code/assets/images/logo-dark.svg);
+    width: 97px;
+    height: 26px;
+}
+
+footer .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .icon {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer .faceboock {
+    background-image: url(/starter-code/assets/images/icon-facebook.svg);
+}
+
+footer .twitter {
+    background-image: url(/starter-code/assets/images/icon-twitter.svg);
+    height: 17px;
+}
+
+footer .instagram {
+    background-image: url(/starter-code/assets/images/icon-instagram.svg);
 }
